@@ -1,84 +1,128 @@
-<header>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>my profile page</title>
-<link rel="stylesheet" href="first.css">
+    <meta charset="UTF-8">
+    <title>Mrunal Portfolio</title>
+    <link rel="stylesheet" href="STYLE.css">
 </head>
-<nav>
-        <a href="Name"></a>
-        <a href="Role"></a>
-        <a href="about me"></a> 
+<body>
+
+    <header id="header">
+        <h1>Mrunal Dayanand Lamture</h1>
+        <p>Aspiring Web Developer</p>
+    </header>
+
+    <nav>
+        <a href="#about"></a>
+        <a href="#education"></a>
+        <a href="#skills"></a>
+        <a href="#projects"></a>
+        <a href="#contact"></a>
     </nav>
 
-<section id="Name">
-    <h1>My Name</h1>
-    <p>Mrunal Dayanand Lamture</p>
-</section>
+    <section id="about">
+        <h2>About Me</h2>
 
-<section id="Role">
-    <h2>Role</h2>
-    <p>web developing intern</p>
-</section>
+        <img src="kitty.avif" alt="My Photo" class="profile-pic">
 
-<section id="about me">
-    <h2>About Me</h2>
-    <img src="my image.jpeg" width="50">
-    <p>AIML Diploma Student at RIT Pune Lohegaon</p>
-</section>
+        <p>
+            Hello! My name is Mrunal Lamture. I am learning Web Development
+            I love learning new technologies and improving my coding skills.
+        </p>
+    </section>
 
+    <section id="education">
+        <h2>Education</h2>
 
-<hr>
+        <table border="1">
+            <tr>
+                <th>Degree</th>
+                <th>College</th>
+                <th>Year</th>
+            </tr>
 
+            <tr>
+                <td>AIML Diploma</td>
+                <td>RIT Pune</td>
+                <td>2025-2027</td>
+            </tr>
+        </table>
+    </section>
 
-    <h1 >educational table</h1>
+    <section id="skills">
+        <h2>Skills</h2>
 
-    <table>
+        <h3>Technical Skills</h3>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>GitHub</li>
+        </ul>
 
-<tr>
-    <th>Degree</th>
-    <th>College</th>
-    <th>year</th>
-</tr>
+        <h3>Personal Skills</h3>
+        <ul>
+            <li>Communication</li>
+            <li>Creativity</li>
+            <li>Teamwork</li>
+            <li>Problem Solving</li>
+        </ul>
+    </section>
 
-<tr>
-    <th>AIML Diploma</th>
-    <th>RIT Pune, Lohegaon</th>
-    <th>3rd year</th>
-</tr>
+    <section id="projects">
+        <h2>Projects</h2>
 
-    </table>
+        <ul>
+            <li>
+                Profile card
+                <a href="https://github.com/mrunallamture" target="_blank"></a>
+            </li>
 
-<h2>Technical skills</h2>
+            <li>
+                style css
+                <a href="https://github.com/mrunallamture" target="_blank"></a>
+            </li>
+        </ul>
+    </section>
 
+    <section>
+        <h2>Hobbies</h2>
 
-<ul>
-    <li>HTML</li>
-    <li>vs code</li>
-    <li>basic web development</li>
-    
-</ul>
+        <dl>
+            <dt>Singing</dt>
+            <dd>I enjoy singing and participating in music activities.</dd>
 
-<h2>personal skills</h2>
+            <dt>Learning New Things</dt>
+            <dd>I enjoy learning new technologies and skills.</dd>
+        </dl>
+    </section>
 
-<ul>
-    <li>good learner</li>
-    <li>problem solving</li>
-    <li>good communication</li>
-</ul>
+    <section>
+        <h2>Social Links</h2>
 
-<dl>
-    <dt></dt>
-    
+        <a href="https://www.instagram.com/mrunal2.o/?hl=en" target="_blank"></a><br>
+        <a href="https://github.com/mrunallamture" target="_blank">GitHub</a>
+    </section>
 
+    <section id="contact">
+        <h2>Contact Me</h2>
 
-</dl>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Enter Name" required>
 
+            <input type="email" placeholder="Enter Email" required>
 
+            <textarea placeholder="Your Message"></textarea>
 
-</header>
-<body
-<h1> Mrunal</h1>
-<p>my new passion is to code</p>
+            <button type="submit">Send</button>
+        </form>
+    </section>
 
-    
+    <footer>
+        <p> 2026 Mrunal Lamture</p>
+    </footer>
+
+    <script src="firsr.js"></script>
+
 </body>
 </html>
